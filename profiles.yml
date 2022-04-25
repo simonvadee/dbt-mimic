@@ -1,6 +1,6 @@
 config:
   send_anonymous_usage_stats: False
-arkhn:
+mimic:
   outputs:
     default:
       dbname: "{{ env_var('POSTGRES_DB', 'project_db') }}"

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: patients
+    columns:
+      - name: id
+        description: Primary key of the table
+        tests:
+          - unique
+          - not_null
